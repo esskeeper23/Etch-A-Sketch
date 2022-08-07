@@ -1,0 +1,1 @@
+import { sketchGenerator } from "./JS/script.js";

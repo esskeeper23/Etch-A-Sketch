@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    color: #F9F9F9;
+}
+
+.sketch-frame {
+    width: 700px;
+    background-color: #171717;
+    height: 700px;
+    border: 5px ridge #536162;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-container {
+    width: 600px;
+    height: 600px;
+    border: 5px double #2B2B2B;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.controls {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.controls-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls-size span {
+    color: #F9F9F9;
+}
