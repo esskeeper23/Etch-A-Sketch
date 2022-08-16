@@ -32,7 +32,6 @@ h3 {
     border: 5px double #2B2B2B;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
 }
 
 .controls {
@@ -51,3 +50,15 @@ h3 {
 .controls-size span {
     color: #F9F9F9;
 }
+
+.colors {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.active {
+    border-bottom: 5px solid blue;
+}
+
